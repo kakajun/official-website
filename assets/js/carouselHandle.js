@@ -8,7 +8,7 @@ var forEach = function (array, callback, thisObject) {
   }
 };
 
-var st = new SlideTrans("idContainer2", "idSlider2", 5, { Vertical: false });
+var st = new SlideTrans("idContainer2", "idSlider2", 3, { Vertical: false });
 
 var nums = [];
 //插入数字
