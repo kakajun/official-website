@@ -148,6 +148,9 @@ p {
   color: #fff;
 }
 
+.center {
+  text-align: center;
+}
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
