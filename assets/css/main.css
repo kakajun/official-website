@@ -1870,3 +1870,8 @@ p {
 .contact-section .contact-wrapper .contact-form .main-btn:hover {
   box-shadow: 0px 8px 23px rgba(40, 106, 222, 0.32);
 }
+
+.filter-btn.mixitup-control-active {
+  background: #4fbfa8;
+  color: white;
+}

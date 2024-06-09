@@ -426,3 +426,7 @@ section {
     margin-top: 20px;
   }
 }
+
+.more {
+  display: none;
+}
