@@ -430,3 +430,9 @@ section {
 .more {
   display: none;
 }
+
+.work-heading {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
