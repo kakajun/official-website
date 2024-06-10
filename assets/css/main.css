@@ -1875,3 +1875,7 @@ p {
   background: #4fbfa8;
   color: white;
 }
+
+.ml-auto {
+  margin-left: auto !important;
+}
