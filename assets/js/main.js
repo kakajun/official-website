@@ -46,23 +46,23 @@
   pageLink.forEach((elem) => {
     elem.addEventListener("click", (e) => {
       e.preventDefault();
-      document.querySelector(elem.getAttribute("href")).scrollIntoView({
-        behavior: "smooth",
-        offsetTop: 1 - 60,
-      });
-      // var element = document.querySelector(elem.getAttribute("href"));
-      // // 计算滚动到的位置，顶部偏移量
-      // var scrollPosition = element.offsetTop - 50;
-      // // 滚动到元素，同时传入一个选项对象
-      // element.scrollIntoView({
-      //   behavior: "smooth", // 平滑滚动
-      //   block: "start", // 元素的顶部与视口顶部对齐
-      // });
-      // window.scrollTo({
-      //   top: scrollPosition,
-      //   left: 0,
+      // document.querySelector(elem.getAttribute("href")).scrollIntoView({
       //   behavior: "smooth",
+      //   offsetTop: 1 - 60,
       // });
+      var element = document.querySelector(elem.getAttribute("href"));
+      // 计算滚动到的位置，顶部偏移量
+      var scrollPosition = element.offsetTop - 50;
+      // 滚动到元素，同时传入一个选项对象
+      element.scrollIntoView({
+        behavior: "smooth", // 平滑滚动
+        block: "start", // 元素的顶部与视口顶部对齐
+      });
+      window.scrollTo({
+        top: scrollPosition,
+        left: 0,
+        behavior: "smooth",
+      });
     });
   });
 
