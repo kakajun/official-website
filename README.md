@@ -18,7 +18,8 @@
 ## 快速开始
 
 1. 下载
-2. 运行 index.html
+2. 开发时在dev.html 中修改内容, 发布时压缩css 和html, 可以跑minify.bash
+3. 运行 index.html
 
 ## 更多模板
 
