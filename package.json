@@ -1,0 +1,23 @@
+{
+  "name": "official-website",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "html",
+    "official",
+    "website",
+    "introduction",
+    "product"
+  ],
+  "scripts": {
+    "minify":"bash minify.bash",
+    "minify:js": "uglifyjs vendor/mixitup/mixitup.js -c -m --output vendor/mixitup/mixitup.min.js",
+    "minify:html": "html-minifier  dev.html -o index.html --collapse-whitespace --remove-comments --remove-empty-attributes --minify-js --minify-css"
+  },
+  "author": "kakajun <253495832@qq.com>",
+  "description": "Enterprise official website, product introduction",
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "uglifyjs":"^2.4.11"
+  }
+}
